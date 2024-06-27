@@ -1,24 +1,25 @@
-# README
+# Hooplist
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Hooplist](http://www.hooplist.io) is a Ruby on Rails application for finding and connecting players for pickup basketball games and groups.
 
-Things you may want to cover:
+Documentation TODO:
 
-* Ruby version
+- Database creation
+- Database initialization
+- How to run the test suite
+- Services (job queues, cache servers, search engines, etc.)
+- Deployment instructions
 
-* System dependencies
+### Installation
 
-* Configuration
+#### System dependencies
 
-* Database creation
+| Dependency    | Version |
+| ------------- | ------- |
+| Ruby          | 3.2.2   |
+| Ruby on Rails | 7.1     |
+| Postgres      | 16      |
 
-* Database initialization
+#### Configuration
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Make sure to edit the `config/database.yml` file to match your postgres settings.
